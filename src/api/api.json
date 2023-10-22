@@ -1,0 +1,56 @@
+[
+   {
+      "id": 1,
+      "slug": "/the-witcher-3",
+      "name": "The Witcher 3",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 9.5,
+      "released": "22-10-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Fantasy, Adventure",
+      "price": 20.00,
+      "discountInPercent": 45,
+      "background_image": "https://pbs.twimg.com/media/Fne-riaXEAIBI9-.jpg:large",
+      "card_image": "www.urlDaImagemDeFundoOuElaImportadaDiretamenteNoDocumento.com.br",
+      "infoPositionInBackground": "left",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 2,
+      "slug": "/cyberpunk-2077",
+      "name": "Cyberpunk 2077",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 10,
+      "released": "10-02-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
+      "price": 100.00,
+      "discountInPercent": 50,
+      "background_image": "https://assets.xboxservices.com/assets/31/78/31780e09-a02e-462e-a6c9-6f7678836807.jpg?n=Cyberpunk-2077_GLP-Hero-Poster-Image-Next-Gen_1920x1080_01.jpg",
+      "card_image": "www.urlDaImagemDeFundoOuElaImportadaDiretamenteNoDocumento.com.br",
+      "infoPositionInBackground": "left",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   }
+]

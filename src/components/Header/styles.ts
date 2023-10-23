@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
    width: 100%;
-   max-width: 1550px;
+   max-width: 1650px; //valor padrao do "grid" central dos conteudos
 
    display: flex;
    align-items: center;
@@ -12,10 +12,16 @@ export const HeaderContainer = styled.header`
    margin: 0 auto;
 
    font-size: 1.15rem;
-   font-weight: 700;
+   font-weight: 500;
+
+   position: absolute;
+   top: 0;
+   right: 0;
+   left: 0;
+   
 
    img {
-      width: 45px;
+      width: 40px;
    }
 
    nav ul {

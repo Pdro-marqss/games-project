@@ -38,9 +38,9 @@
       "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
       "price": 100.00,
       "discountInPercent": 50,
-      "background_image": "https://assets.xboxservices.com/assets/31/78/31780e09-a02e-462e-a6c9-6f7678836807.jpg?n=Cyberpunk-2077_GLP-Hero-Poster-Image-Next-Gen_1920x1080_01.jpg",
+      "background_image": "https://github.com/Pdro-marqss/games-project/blob/main/src/assets/test.jpg?raw=true",
       "card_image": "www.urlDaImagemDeFundoOuElaImportadaDiretamenteNoDocumento.com.br",
-      "infoPositionInBackground": "left",
+      "infoPositionInBackground": "right",
       "game_website": "www.SiteOficialDoJogo.com.br",
       "screenshots": {
          "first": "www.primeiraScreenshot.com.br",

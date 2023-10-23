@@ -25,7 +25,16 @@ export const HeaderContainer = styled.header`
    }
 
    div {
+      /* border: 1px solid red; */
       display: flex;
-      gap: 20px;
+      align-items: center;
+      gap: 35px;
+
+      img {
+         width: 30px;
+         height: 30px;
+         border-radius: 50%;
+         border: 1px solid white;
+      }
    }
 `;

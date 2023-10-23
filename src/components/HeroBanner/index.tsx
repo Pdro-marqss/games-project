@@ -6,7 +6,7 @@ export function HeroBanner() {
    const { gamesList } = useContext(GamesContext);
 
    return (
-      <HomeContainer backgroundImage={gamesList.length > 1 && gamesList[0].background_image}>
+      <HomeContainer backgroundImage={gamesList.length > 1 && gamesList[1].background_image}>
 
       </HomeContainer>
    )

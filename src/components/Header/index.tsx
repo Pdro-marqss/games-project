@@ -1,4 +1,5 @@
 import Logo from '../../assets/logo-simple.svg';
+import { Heart, ShoppingCartSimple, } from 'phosphor-react';
 
 import { HeaderContainer } from './styles';
 
@@ -17,9 +18,9 @@ export function Header() {
 
          {/* icones de carrinho, perfil e favoritos */}
          <div>
-            <p>fav</p>
-            <p>car</p>
-            <p>profile</p>
+            <Heart size={28} />
+            <ShoppingCartSimple size={28} />
+            <img src="https://www.github.com/Pdro-marqss.png" alt="" />
          </div>
       </HeaderContainer>
    );

@@ -1,8 +1,9 @@
 import { useEffect, useContext } from 'react'
 import axios from "axios";
 
-// import { FetchApi } from './api/FetchApi';
 import { GamesContext } from '../../contexts/GamesContext';
+
+import { HeroBanner } from '../../components/HeroBanner';
 
 export function Home() {
    const { gamesList, setGamesListData } = useContext(GamesContext);
@@ -22,20 +23,7 @@ export function Home() {
 
    }, [gamesList, setGamesListData]);
 
-   // console.log(gamesList[0].background_image)
-
    return (
-      <>
-         <h1>GameStation</h1>
-         {gamesList.map(game => {
-            return (
-               <>
-                  <h1 key={game.id}>{game.name}</h1>
-               </>
-            )
-         })}
-
-         {gamesList.length > 1 && <img src={gamesList[1].background_image} alt='' />}
-      </>
+      <HeroBanner />
    )
 }

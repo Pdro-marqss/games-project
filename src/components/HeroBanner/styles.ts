@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
 interface HomeContainerProps {
-   backgroundImage: string | false
+   backgroundimage: string | undefined;
 }
 
 export const HeroContainer = styled.div<HomeContainerProps>`
    /* border: 1px solid purple; */
-   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2)), url(${props => props.backgroundImage});
+   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2)), url(${props => props.backgroundimage});
    /* background-position: top 0 center 1; */
    background-position: center;
    background-size: cover;
@@ -40,7 +40,7 @@ export const HeroGameInfoContainer = styled.div`
    position: absolute;
    top: 50%;
 
-   p {
+   > p {
       font-size: 1.6rem;
       font-weight: 400;
       letter-spacing: 1px;

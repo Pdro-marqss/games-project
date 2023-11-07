@@ -6,7 +6,7 @@ export function HeroBanner() {
    const { gamesList } = useContext(GamesContext);
 
    return (
-      <HeroContainer backgroundImage={gamesList.length > 1 && gamesList[1].background_image}>
+      <HeroContainer backgroundimage={gamesList.length > 1 ? gamesList[1].background_image : ''} >
          <HeroGameInfoContainer>
             <p>Cyberpunk 2077: Phantom Liberty DLC</p>
             <div>

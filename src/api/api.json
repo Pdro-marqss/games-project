@@ -1,18 +1,18 @@
 [
    {
       "id": 1,
-      "slug": "/the-witcher-3",
-      "name": "The Witcher 3",
+      "slug": "/spider-man-miles-morales",
+      "name": "Spider-Man: Miles Morales",
       "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
       "metacritics": 9.5,
       "released": "22-10-2023",
       "publisher": "publicante",
       "developer": "desenvolvedora",
       "genre": "Action, SinglePlayer, Fantasy, Adventure",
-      "price": 20.00,
+      "price": "20,00",
       "discountInPercent": 45,
       "background_image": "https://pbs.twimg.com/media/Fne-riaXEAIBI9-.jpg:large",
-      "card_image": "www.urlDaImagemDeFundoOuElaImportadaDiretamenteNoDocumento.com.br",
+      "card_image": "https://www.sportsunfold.com/wp-content/uploads/2022/10/sky-hynix-newsroom.jpg",
       "infoPositionInBackground": "left",
       "game_website": "www.SiteOficialDoJogo.com.br",
       "screenshots": {
@@ -28,6 +28,87 @@
    },
    {
       "id": 2,
+      "slug": "/dead-space",
+      "name": "Dead Space",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 10,
+      "released": "10-02-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
+      "price": "100,00",
+      "discountInPercent": 50,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://www.powerpyx.com/wp-content/uploads/dead-space-remake-wallpaper.jpg",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 3,
+      "slug": "/resident-evil-4",
+      "name": "Resident Evil 4 - Remake",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 10,
+      "released": "10-02-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
+      "price": "100,00",
+      "discountInPercent": 50,
+      "background_image": "https://sm.ign.com/t/ign_pt/screenshot/default/pre-venda-resident-evil-4_unwm.1280.jpg",
+      "card_image": "https://sm.ign.com/t/ign_pt/screenshot/default/pre-venda-resident-evil-4_unwm.1280.jpg",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 6,
+      "slug": "/red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 10,
+      "released": "10-02-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
+      "price": "100,00",
+      "discountInPercent": 50,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2506160/header.jpg?t=1697828664",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 4,
       "slug": "/cyberpunk-2077",
       "name": "Cyberpunk 2077",
       "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
@@ -36,10 +117,37 @@
       "publisher": "publicante",
       "developer": "desenvolvedora",
       "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
-      "price": 100.00,
+      "price": "100,00",
       "discountInPercent": 50,
       "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
-      "card_image": "https://psxbrasil.com.br/wp-content/uploads/2023/06/FyXKs89XsAUv2_n.jpg",
+      "card_image": "https://ocdn.eu/sport-images-transforms/1/aBGk9lBaHR0cHM6Ly9vY2RuLmV1L3B1bHNjbXMvTURBXy81MDIwMDQ4NTRhMGUwNjcyYWY4YWYyNTUwYTQ3YjIzZi5wbmeTlQMAAM0FAM0C0JUCzQSwAMLDkwmmMDJiODM4Bt4AAqEwAaExAQ/cyberpunk-2077.png",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 5,
+      "slug": "/red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
+      "metacritics": 10,
+      "released": "10-02-2023",
+      "publisher": "publicante",
+      "developer": "desenvolvedora",
+      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
+      "price": "100,00",
+      "discountInPercent": 50,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://sm.ign.com/ign_nordic/screenshot/default/rdr2-trailer2-xb-wire-940x528-v02-hero_arwx.png",
       "infoPositionInBackground": "right",
       "game_website": "www.SiteOficialDoJogo.com.br",
       "screenshots": {

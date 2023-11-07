@@ -3,12 +3,16 @@ import { GamesContext } from "../../contexts/GamesContext";
 
 import { CardsGridContainer, Title, CardsWrapper, Card, CardInfos } from "./styles";
 
-export function CardsGrid() {
+interface CardGridProps {
+   title: string;
+}
+
+export function CardsGrid({ title }: CardGridProps) {
    const { gamesList } = useContext(GamesContext);
 
    return (
       <CardsGridContainer>
-         <Title>Trending</Title>
+         <Title>{title}</Title>
          <CardsWrapper>
             {gamesList.length > 1 && gamesList.map(game => (
                <Card imgbg={game.card_image} key={game.id}>

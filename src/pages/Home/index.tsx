@@ -28,7 +28,7 @@ export function Home() {
       <>
          <HeroBanner />
 
-         <CardsGrid />
+         <CardsGrid title='Trending' />
       </>
    )
 }

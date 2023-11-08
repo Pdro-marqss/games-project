@@ -8,7 +8,7 @@ export const CardsGridContainer = styled.div`
    flex-direction: column;
    
    padding: 0 10rem;
-   margin: 3rem auto 0;
+   margin: 3rem auto;
 
    /* border: 1px solid green; */
 `;

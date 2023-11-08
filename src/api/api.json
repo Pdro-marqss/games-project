@@ -81,17 +81,17 @@
       }
    },
    {
-      "id": 6,
-      "slug": "/red-dead-redemption-2",
-      "name": "Red Dead Redemption 2",
-      "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
-      "metacritics": 10,
-      "released": "10-02-2023",
-      "publisher": "publicante",
-      "developer": "desenvolvedora",
-      "genre": "Action, SinglePlayer, Futurist, Adventure, Shooter, FPS, Cyberpunk",
-      "price": "100,00",
-      "discountInPercent": 50,
+      "id": 4,
+      "slug": "/fears-to-fathom-ironbark-lookout",
+      "name": "Fears to Fathom - Ironbark Lookout",
+      "description": "Jack Nelson, um vigia de incêndio de 24 anos, transferido para um novo posto avançado. Ao se instalar em sua nova casa, ele não conseguia se livrar da sensação de que algo estava errado, mal sabia ele o que estava acontecendo no Ironbark State Park.",
+      "metacritics": 8,
+      "released": "20-10-2023",
+      "publisher": "Rayll Studios",
+      "developer": "Rayll Studios",
+      "genre": "Terror, SinglePlayer, Narrativa",
+      "price": "20,49",
+      "discountInPercent": 10,
       "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
       "card_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/2506160/header.jpg?t=1697828664",
       "infoPositionInBackground": "right",
@@ -108,7 +108,7 @@
       }
    },
    {
-      "id": 4,
+      "id": 5,
       "slug": "/cyberpunk-2077",
       "name": "Cyberpunk 2077",
       "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
@@ -135,7 +135,7 @@
       }
    },
    {
-      "id": 5,
+      "id": 6,
       "slug": "/red-dead-redemption-2",
       "name": "Red Dead Redemption 2",
       "description": "This game is about um bruxo dahora chamado Gerald e ele ta numa aventura da boa pra caçar demonios e criaturas e ganhar dinheiro com isso, o famoso caçador de recompensas",
@@ -148,6 +148,87 @@
       "discountInPercent": 50,
       "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
       "card_image": "https://sm.ign.com/ign_nordic/screenshot/default/rdr2-trailer2-xb-wire-940x528-v02-hero_arwx.png",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 7,
+      "slug": "/diablo-IV",
+      "name": "Diablo IV",
+      "description": "Junte-se à luta por Santuário no Diablo IV, a aventura suprema de RPG de ação. Vivencie a campanha aclamada pela crítica e os novos conteúdos de temporada.",
+      "metacritics": 10,
+      "released": "17-10-2023",
+      "publisher": "Blizzard Entertainment, Inc.",
+      "developer": "Blizzard Entertainment, Inc.",
+      "genre": "Action, RPG, Hack and Slash, Co-op",
+      "price": "175,00",
+      "discountInPercent": 50,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://gossip.gg/_next/image?url=https%3A%2F%2Fd2dgkt5728m0bd.cloudfront.net%2FD4_Lilith_3440x1440_dd0abd0e66.png&w=3840&q=75",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 8,
+      "slug": "/elden-ring",
+      "name": "Elden Ring",
+      "description": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+      "metacritics": 10,
+      "released": "24-02-2022",
+      "publisher": "FromSoftware Inc., Bandai Namco Entertainment",
+      "developer": "FromSoftware Inc.",
+      "genre": "Action, RPG, Souls-like, Single-plpayer",
+      "price": "230,00",
+      "discountInPercent": null,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg?t=1683618443",
+      "infoPositionInBackground": "right",
+      "game_website": "www.SiteOficialDoJogo.com.br",
+      "screenshots": {
+         "first": "www.primeiraScreenshot.com.br",
+         "second": "www.secundaScreenshot.com.br",
+         "third": "www.terceiraScreenshot.com.br"
+      },
+      "plataforms": {
+         "first": "PC",
+         "second": "XBOX",
+         "third": "Playstation"
+      }
+   },
+   {
+      "id": 8,
+      "slug": "/party-annimals",
+      "name": "Party Animals",
+      "description": "Lute contra seus amigos como cachorrinhos, gatinhos ou outros bixos fofinhos em PARTY ANIMALS! Dê patadas em seus amigos tanto online quanto em casa. Interaja com nosso mundo sob nosso sistema com física realista. Eu mencionei CACHORRINHOS?",
+      "metacritics": 8,
+      "released": "20-09-2023",
+      "publisher": "Source Technology",
+      "developer": "Recreate Games",
+      "genre": "Casual, Ação, Multijogador",
+      "price": "230,00",
+      "discountInPercent": null,
+      "background_image": "https://64.media.tumblr.com/c0c993eca855a64cff27def14151979f/f8f77d338e45ca94-3b/s2048x3072/6fa4bed345b01d347ef9570c90691f7a81be73b7.jpg",
+      "card_image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1260320/header.jpg?t=1698248287",
       "infoPositionInBackground": "right",
       "game_website": "www.SiteOficialDoJogo.com.br",
       "screenshots": {

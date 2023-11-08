@@ -18,7 +18,7 @@ export function CardsGrid({ title }: CardGridProps) {
                <Card imgbg={game.card_image} key={game.id}>
 
                   <CardInfos>
-                     <span>{game.discountInPercent}%</span>
+                     {game.discountInPercent !== null && <span>{game.discountInPercent}%</span>}
                      <div>
                         <p>{game.name}</p>
                         <span>R${game.price}</span>

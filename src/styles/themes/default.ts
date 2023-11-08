@@ -10,6 +10,7 @@ export const defaultTheme = {
    'gray-300': '#3D3D3D',
    'gray-400': '#323232', //background buttons
    'gray-500': '#272727', //background
+   'gray-600': '#171717',
 
    'green-100': '#09842A',
 

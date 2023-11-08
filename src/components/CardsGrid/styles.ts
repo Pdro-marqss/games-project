@@ -15,6 +15,8 @@ export const CardsGridContainer = styled.div`
 
 export const Title = styled.p`
    margin-bottom: 20px;
+   font-size: 1.25rem;
+   font-weight: 500;
 `;
 
 export const CardsWrapper = styled.div`

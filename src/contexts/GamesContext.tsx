@@ -10,8 +10,9 @@ interface Game {
    publisher: string;
    developer: string;
    genre: string;
-   prince: number;
+   price: number;
    discountInPercent: number;
+   listCategory: string;
    background_image: string;
    card_image: string;
    infoPositionInBackground: "left" | "right",

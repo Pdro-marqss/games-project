@@ -14,7 +14,7 @@ export const HeroContainer = styled.div<HomeContainerProps>`
 
    width: 100%;
    /* max-width: 1550px; */
-   height: 90dvh;
+   height: 80dvh; //ou 75
    margin: 0 auto;
 
    display: flex;

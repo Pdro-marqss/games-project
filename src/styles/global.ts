@@ -7,11 +7,20 @@ export const GlobalStyled = createGlobalStyle`
       box-sizing: border-box;
    }
 
+   html {
+      height: 100%;
+      min-height: 100%;
+   }
+
    body {
       background: ${props => props.theme['gray-500']};
       color: ${props => props.theme.white};
       font-weight: 400;
       -webkit-font-smoothing: antialiased;
+
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
    }
 
    body, input, textarea, button {

@@ -8,6 +8,7 @@ import { HeroBanner } from '../../components/HeroBanner';
 import { CardsGrid } from '../../components/CardsGrid';
 
 import { GrayInfoContainer, GrayInfoWrapper } from './styles';
+import { Footer } from '../../components/Footer';
 
 export function Home() {
    const { gamesList, setGamesListData } = useContext(GamesContext);
@@ -68,6 +69,8 @@ export function Home() {
             title='Pre-orders'
             cardGridContent='gamesInDiscount'
          />
+
+         <Footer />
 
       </>
    )

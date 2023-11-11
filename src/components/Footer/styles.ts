@@ -17,6 +17,11 @@ export const FooterWrapper = styled.div`
 
    margin: 0 auto;
    padding: 0 10rem;
+
+   p span {
+      text-decoration: underline;
+      cursor: pointer;
+   }
 `;
 
 export const FooterLanguageOption = styled.div`

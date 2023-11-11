@@ -4,11 +4,11 @@ import { HeroContainer, HeroGameInfoContainer } from "./styles";
 
 export function HeroBanner() {
    const { gamesList } = useContext(GamesContext);
-
+   const gameChoose = gamesList.length > 1 && gamesList[4];
    return (
-      <HeroContainer backgroundimage={gamesList.length > 1 ? gamesList[1].background_image : ''} >
+      <HeroContainer backgroundimage={gameChoose ? gameChoose.background_image : ''} >
          <HeroGameInfoContainer>
-            <p>Cyberpunk 2077: Phantom Liberty DLC</p>
+            <p>{gameChoose.name}</p>
             <div>
                <span>-50%</span>
                <span>R$53,49</span>

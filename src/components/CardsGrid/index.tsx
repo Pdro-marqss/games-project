@@ -4,7 +4,7 @@ import { GamesContext } from "../../contexts/GamesContext";
 import { CardsGridContainer, Title, CardsWrapper, Card, CardInfos } from "./styles";
 
 interface CardGridProps {
-   title: string;
+   title?: string;
    cardGridContent: "gamesInDiscount" | "gamesInTrendings";
 }
 

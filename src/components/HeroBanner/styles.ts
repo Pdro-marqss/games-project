@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
-interface HomeContainerProps {
+interface HeroContainerProps {
    backgroundimage: string | undefined;
+   // BannerType: 'home' | 'product'
 }
 
-export const HeroContainer = styled.div<HomeContainerProps>`
+export const HeroContainer = styled.div<HeroContainerProps>`
    /* border: 1px solid purple; */
    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.2)), url(${props => props.backgroundimage});
    /* background-position: top 0 center 1; */

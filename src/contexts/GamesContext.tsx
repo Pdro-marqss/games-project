@@ -1,6 +1,7 @@
-import { useState, createContext, ReactNode } from 'react';
+import { useState, useEffect, createContext, ReactNode } from 'react';
+import axios from "axios";
 
-interface Game {
+export interface Game {
    id: number;
    slug: string;
    name: string;
@@ -46,6 +47,21 @@ export function GamesContextProvider({ children }: GamesContextProviderProps) {
    function setGamesListData(data: Game[]) {
       setGamesList(data);
    }
+
+   useEffect(() => {
+      const fetchData = async () => {
+         if (gamesList.length < 1) {
+            await axios.get('src/api/api.json')
+               .then(res => setGamesListData(res.data))
+               .catch(err => console.log(err))
+
+            console.log('Fez o fetch');
+         }
+      }
+
+      fetchData();
+
+   }, [gamesList]);
 
    return (
       <GamesContext.Provider value={{ gamesList, setGamesListData, }}>

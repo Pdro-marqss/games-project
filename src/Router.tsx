@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom';
 
 import { Home } from './pages/Home';
+import { Product } from './pages/Product';
 
 export function Router() {
    return (
@@ -9,7 +10,7 @@ export function Router() {
          {/* <Route path='/browse' element={<Browse />} /> */}
          {/* <Route path='/support' element={<Support />} /> */}
 
-         {/* <Route path='/game/:id' element={<Game />} /> */}
+         <Route path='/game' element={<Product />} />
       </Routes>
    );
 }

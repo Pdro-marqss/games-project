@@ -1,8 +1,4 @@
-import { useEffect, useContext } from 'react'
-import axios from "axios";
 import { CloudArrowDown, ShieldCheck, ChatsCircle } from 'phosphor-react';
-
-import { GamesContext } from '../../contexts/GamesContext';
 
 import { HeroBanner } from '../../components/HeroBanner';
 import { CardsGrid } from '../../components/CardsGrid';
@@ -11,26 +7,9 @@ import { GrayInfoContainer, GrayInfoWrapper } from './styles';
 import { Footer } from '../../components/Footer';
 
 export function Home() {
-   const { gamesList, setGamesListData } = useContext(GamesContext);
-
-   useEffect(() => {
-      const fetchData = async () => {
-         if (gamesList.length < 1) {
-            await axios.get('src/api/api.json')
-               .then(res => setGamesListData(res.data))
-               .catch(err => console.log(err))
-
-            console.log('Fez o fetch');
-         }
-      }
-
-      fetchData();
-
-   }, [gamesList, setGamesListData]);
-
    return (
       <>
-         <HeroBanner />
+         <HeroBanner type='home' />
 
          <CardsGrid
             title='Trending'

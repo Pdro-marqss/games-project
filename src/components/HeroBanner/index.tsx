@@ -10,7 +10,7 @@ interface HeroBannerProps {
 
 export function HeroBanner({ type }: HeroBannerProps) {
    const { gamesList } = useContext(GamesContext);
-   const gameChoose: Game = gamesList.length > 1 && gamesList[4];
+   const gameChoose: Game = gamesList.length > 1 && gamesList[6];
 
    console.log(gamesList)
    return (
